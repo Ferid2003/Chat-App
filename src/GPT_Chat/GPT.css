@@ -1,0 +1,150 @@
+.gpt-holder{
+    display: flex;
+}
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.cs-message-input__tools{
+    cursor: pointer;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.block{
+    cursor: pointer;
+    width: 14vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.block-light{
+    cursor: pointer;
+    width: 14vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.block-light:hover{
+    transition-duration: 1s;
+    transition-delay: 0.15s;
+    transition-property: background-color,color;
+    background-color: #5C6BC0;
+    color: #FFFFFF;
+}
+.block:hover{
+    transition-duration: 1s;
+    transition-delay: 0.15s;
+    transition-property: background-color;
+    background-color: #3F51B5;
+}
+.block2:before{
+    content: "";
+    width: 100%;
+    border-bottom: solid 1px #888888;
+    position: absolute;
+    left: 0;
+    top: 93%;
+    z-index: 1;
+}
+.block2{
+    width: 12vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    justify-content: left;
+}
+.gpt-img{
+    background-image: url("../images/gpt_s.svg");
+    background-size: cover;
+    background-position: center;
+    height: 23px;
+    width: 23px;
+    margin-right: 5px;
+}
+.gpt-img-light{
+    background-image: url("../images/gpt_l.svg");
+    background-size: cover;
+    background-position: center;
+    height: 23px;
+    width: 23px;
+    margin-right: 5px;
+}
+.setting-img{
+    background-image: url("../images/Settings_s.svg");
+}
+.setting-img-light{
+    background-image: url("../images/Settings_l.svg");
+}
+.logOut-img{
+    background-image: url("../images/Share_s.svg");
+}
+.logOut-img-light{
+    background-image: url("../images/Share-l.svg");
+}
+.theme-img{
+    background-image: url("../images/theme_s.svg");
+}
+.theme-img-light{
+    background-image: url("../images/theme-l.svg");
+}
+.help-img{
+    background-image: url("../images/help_s.svg");
+}
+.help-img-light{
+    background-image: url("../images/help_l.svg");
+}
+.chat-img{
+    background-image: url("../images/Chat_s.svg");
+}
+.chat-img-light{
+    background-image: url("../images/Chat_l.svg");
+}
+.img{
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+h2{
+    margin-left: 5px;
+}
+.cs-conversation-header{
+    margin-bottom: 20px;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}

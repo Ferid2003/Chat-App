@@ -1,0 +1,124 @@
+.chat-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    width: 85vw;
+}
+.wrap{
+    display: flex;
+}
+.qaqaq{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    height: 10%;
+    bottom:12px;
+    display: flex;
+}
+.messages-holder{
+    padding: 20px;
+    margin-bottom: 200px;
+}
+.typer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message-input{
+    width: 500px;
+    padding: 9px;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.message-input-button{
+    background-image: url("../images/Send.svg");
+}
+.message-input-button-light{
+    background-image: url("../images/Send_l.svg");
+}
+.input-button{
+    content: "";
+    cursor: pointer;
+    bottom: 0;
+    margin: 0 0 0 -40px;
+    border-radius: 2px;
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.files{
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+}
+.files-dark{
+    background-image: url("../images/Folder.svg");
+}
+.files-light{
+    background-image: url("../images/Folder_l.svg");
+}
+.settings{
+    cursor: pointer;
+    background-image: url("../images/Menu.png");
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 2px;
+}
+.update{
+    cursor: pointer;
+    background-image: url("../images/Settings.svg");
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+}
+.close{
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+ }
+.close-dark{
+    background-image: url("../images/Close.svg");
+}
+.close-light{
+    background-image: url("../images/Close_l.svg");
+}
+.gpt{
+    cursor: pointer;
+}
+.signOut{
+    cursor: pointer;
+    background-image: url("../images/Share.svg");
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+}
+.image{
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+}
+.image-dark{
+    background-image: url("../images/Image.svg");
+}
+.image-light{
+    background-image: url("../images/Image_l.svg");
+}
+.hidden{
+    display: none;
+}
