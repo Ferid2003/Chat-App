@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {usersCollection} from "../Firebase.js";
-import {useLocation, useNavigate} from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 import {addDoc, onSnapshot} from "firebase/firestore";
 import {useAuth} from "../Authentication/AuthContext.jsx";
 
